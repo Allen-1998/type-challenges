@@ -42,7 +42,9 @@
       "no-unused-expressions": "off",
       "prefer-const": "off",
       "no-alert": "off",
-      "@typescript-eslint/consistent-type-definitions": "off"
+      "@typescript-eslint/consistent-type-definitions": "off",
+      "@typescript-eslint/quotes": "off",
+      "@typescript-eslint/comma-dangle": "off"
     }
   }
 }
