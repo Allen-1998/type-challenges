@@ -35,7 +35,7 @@
   "eslintConfig": {
     "extends": "@antfu/eslint-config-ts",
     "rules": {
-      "no-lone-blocks":"off",
+      "no-lone-blocks": "off",
       "import/first": "off",
       "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": "off",
