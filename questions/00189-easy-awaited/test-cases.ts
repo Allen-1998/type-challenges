@@ -12,5 +12,4 @@ type cases = [
   Expect<Equal<MyAwaited<Z1>, string | boolean>>,
 ]
 
-// @ts-expect-error
 type error = MyAwaited<number>
