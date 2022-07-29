@@ -17,7 +17,7 @@
   "prettier.semi": false,
   "typescript.format.semicolons": "remove",
   "javascript.format.semicolons": "remove",
-  // "editor.formatOnSave": true,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
