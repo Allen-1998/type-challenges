@@ -6,7 +6,9 @@ type AlphabetLowerCase =
 'u' | 'v' | 'w' | 'x' | 'y' |
 'z'
 
-type Alphabet = AlphabetLowerCase | Uppercase<AlphabetLowerCase>
+type AlphabetUpperCase = Uppercase<AlphabetLowerCase>
+
+type Alphabet = AlphabetLowerCase | AlphabetUpperCase
 
 type CapitalizeWords<S extends string, Prev extends string=' '> =
   S extends `${infer L}${infer Rest}`
